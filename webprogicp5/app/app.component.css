@@ -1,0 +1,57 @@
+body{
+  padding: 0;
+  margin: 0;
+
+}
+form{
+  max-width: 50em;
+  margin: 4em auto;
+  position: relative;
+  background: #f4f4f4;
+  padding: 2em 3em;
+  overflow: hidden;
+}
+form h1{
+  font-family: "Lucida Console", Monaco, monospace;
+  color: mediumvioletred;
+}
+form input[type=text]::placeholder{
+  font-family: "Lucida Console", Monaco, monospace;
+  color:#666;
+}
+form .data{
+  margin-top: 1em;
+}
+form .data li{
+  background: #fff;
+  border-left: 4px solid mediumvioletred;
+  padding: 1em;
+  margin: 1em auto;
+  color: #666;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+form .data li i{
+  float: right;
+  color: #888;
+  cursor: pointer;
+}
+form .input-group-text{
+  background: red;
+  width: 45px;
+  height: 5px;
+  padding: 23px;
+  color: #24292e;
+  position: absolute;
+  right: 13px;
+  cursor: pointer;
+}
+form .input-group-text i{
+  font-size: 2em;
+}
+form .form-control{
+  height: 45px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+form .form-control:focus {
+  box-shadow: 0;
+}
