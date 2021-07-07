@@ -1,0 +1,21 @@
+.parent {
+  position: relative;
+  height:100%;
+  width: 100%;
+}
+
+.child {
+  color: darkblue;
+  text-align: center;
+  position: center;
+
+}
+.desc {
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 32px;
+  text-decoration: black;
+}
+
+.gobtn{
+  background-color: mediumvioletred;
+}

@@ -1,0 +1,30 @@
+body {
+    margin: 2%;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+#pict {
+    line-height: 425px;
+    width: 550px;
+    height: 445px;
+    border: 6px solid black;
+    background-color: peachpuff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin: 0 auto 25px;
+    font-size: 250%;
+}
+
+.cupcake {
+    width: 10%;
+    margin-left: 17%;
+    border: 10px solid black;
+}
+
+img {
+    width: 95%;
+}
